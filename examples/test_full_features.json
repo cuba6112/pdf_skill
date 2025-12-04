@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "Full Feature Test Manual",
+    "subtitle": "Testing All Content Types",
+    "version": "2.0",
+    "author": "PDF Generator Test Suite",
+    "organization": "Rust PDF Project",
+    "date": "December 2024"
+  },
+  "config": {
+    "toc": {
+      "enabled": true,
+      "title": "Contents",
+      "depth": 3
+    },
+    "header_footer": {
+      "show_footer": true,
+      "show_page_numbers": true,
+      "footer_text": "Full Feature Test"
+    }
+  },
+  "content": [
+    {
+      "type": "chapter",
+      "title": "Introduction",
+      "intro": "This chapter introduces the PDF generator and its capabilities.",
+      "sections": [
+        {
+          "title": "Overview",
+          "content": [
+            { "type": "paragraph", "text": "Welcome to the full-featured PDF generator test. This document demonstrates all the content types supported by our Rust-based PDF generator." },
+            { "type": "callout", "text": "This is an informational callout box.", "callout_type": "info" },
+            { "type": "callout", "text": "Be careful with this operation!", "callout_type": "warning", "title": "Caution" },
+            { "type": "callout", "text": "Critical security warning - do not proceed without backup.", "callout_type": "danger" }
+          ],
+          "subsections": [
+            {
+              "title": "Features Included",
+              "content": [
+                { "type": "paragraph", "text": "The generator supports the following features:" },
+                { "type": "list", "items": ["Chapters, sections, and subsections", "Paragraphs with text wrapping", "Ordered and unordered lists", "Code blocks with syntax highlighting", "Tables with headers and data rows", "Callout boxes (info, warning, danger)", "Image embedding (JPEG, PNG)", "Table of Contents generation", "Appendix sections", "Glossary with sorted terms"], "ordered": false }
+              ]
+            },
+            {
+              "title": "Getting Started",
+              "content": [
+                { "type": "paragraph", "text": "To get started, prepare your JSON file following the schema documented in this manual." },
+                { "type": "list", "items": ["Install Rust toolchain", "Clone the repository", "Run cargo build --release", "Execute: ./pdf_generator input.json output.pdf"], "list_type": "numbered" }
+              ]
+            }
+          ]
+        }
+      ],
+      "page_break_after": true
+    },
+    {
+      "type": "chapter",
+      "title": "Code Examples",
+      "sections": [
+        {
+          "title": "Rust Code",
+          "content": [
+            { "type": "paragraph", "text": "Here is a sample Rust function that demonstrates the code block feature:" },
+            { "type": "code", "code": "fn main() {\n    let message = \"Hello, PDF!\";\n    println!(\"{}\", message);\n    \n    for i in 0..5 {\n        println!(\"Count: {}\", i);\n    }\n}", "language": "rust", "caption": "A simple Rust program" }
+          ]
+        },
+        {
+          "title": "Python Example",
+          "content": [
+            { "type": "code", "code": "def generate_pdf(input_file, output_file):\n    \"\"\"Generate a PDF from JSON input.\"\"\"\n    with open(input_file, 'r') as f:\n        data = json.load(f)\n    \n    builder = PDFBuilder(data)\n    builder.build(output_file)\n    \n    return True", "language": "python", "caption": "Python PDF generation function" }
+          ]
+        }
+      ],
+      "page_break_after": true
+    },
+    {
+      "type": "chapter",
+      "title": "Data Presentation",
+      "sections": [
+        {
+          "title": "Tables",
+          "content": [
+            { "type": "paragraph", "text": "Tables are useful for presenting structured data. Here is an example comparison table:" },
+            { "type": "table", "headers": ["Feature", "Python", "Rust"], "rows": [["Speed", "Moderate", "Very Fast"], ["Memory", "Higher", "Lower"], ["Binary Size", "Requires Runtime", "Standalone"], ["Compilation", "Interpreted", "Compiled"]], "caption": "Python vs Rust Comparison" },
+            { "type": "spacer", "height": 0.3 },
+            { "type": "paragraph", "text": "Another table showing supported content types:" },
+            { "type": "table", "headers": ["Type", "Description", "Status"], "rows": [["paragraph", "Text content", "Supported"], ["list", "Bullet or numbered lists", "Supported"], ["code", "Code blocks", "Supported"], ["table", "Data tables", "Supported"], ["image", "Image embedding", "Supported"], ["callout", "Highlighted boxes", "Supported"]], "caption": "Supported Content Types" }
+          ]
+        },
+        {
+          "title": "Nested Lists",
+          "content": [
+            { "type": "paragraph", "text": "Lists can contain nested items for hierarchical information:" },
+            { "type": "list", "items": [{"text": "Main category one", "subitems": ["Sub-item A", "Sub-item B", "Sub-item C"]}, {"text": "Main category two", "subitems": ["Sub-item X", "Sub-item Y"]}, "Simple item without subitems"], "ordered": false }
+          ]
+        }
+      ],
+      "page_break_after": true
+    },
+    {
+      "type": "appendix",
+      "title": "Configuration Reference",
+      "content": [
+        { "type": "paragraph", "text": "This appendix provides a quick reference for configuration options available in the PDF generator." },
+        { "type": "heading", "text": "Page Settings", "level": 2 },
+        { "type": "list", "items": ["page_size: letter, a4, a5, legal", "margins: top, bottom, left, right (in inches)", "fonts: body, heading, code"], "ordered": false },
+        { "type": "heading", "text": "Color Configuration", "level": 2 },
+        { "type": "paragraph", "text": "All colors are specified as hex values (e.g., #1a1a2e)." },
+        { "type": "table", "headers": ["Color Key", "Purpose", "Default"], "rows": [["primary", "Headings, titles", "#1a1a2e"], ["secondary", "Subheadings", "#16213e"], ["body", "Body text", "#333333"], ["code_bg", "Code block background", "#f5f5f5"], ["callout_bg", "Info callout background", "#e8f4f8"]] }
+      ],
+      "page_break_after": true
+    },
+    {
+      "type": "glossary",
+      "title": "Glossary of Terms",
+      "terms": [
+        { "term": "PDF", "definition": "Portable Document Format - a file format for presenting documents independent of software, hardware, or operating system." },
+        { "term": "JSON", "definition": "JavaScript Object Notation - a lightweight data interchange format that is easy for humans to read and write." },
+        { "term": "TOC", "definition": "Table of Contents - a list of chapters, sections, and their page numbers." },
+        { "term": "Rust", "definition": "A systems programming language focused on safety, speed, and concurrency." },
+        { "term": "Callout", "definition": "A highlighted box used to draw attention to important information." },
+        { "term": "XObject", "definition": "An external object in PDF that can be referenced multiple times, commonly used for images." }
+      ]
+    }
+  ]
+}

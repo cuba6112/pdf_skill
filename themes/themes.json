@@ -1,0 +1,1505 @@
+{
+  "themes": {
+    "default": {
+      "name": "Default Professional",
+      "description": "Clean, professional look suitable for most manuals",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 28,
+        "subtitle": 16,
+        "h1": 20,
+        "h2": 16,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "primary": "#1a1a2e",
+        "secondary": "#16213e",
+        "accent": "#0f3460",
+        "body": "#333333",
+        "muted": "#666666",
+        "link": "#0066cc",
+        "code_bg": "#f5f5f5",
+        "callout_bg": "#e8f4f8",
+        "warning_bg": "#fff3cd",
+        "danger_bg": "#f8d7da"
+      }
+    },
+
+    "corporate_blue": {
+      "name": "Corporate Blue",
+      "description": "Professional corporate style with blue accents",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.25, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 32,
+        "subtitle": 14,
+        "h1": 22,
+        "h2": 16,
+        "h3": 13,
+        "h4": 11,
+        "body": 10,
+        "caption": 8,
+        "code": 9,
+        "footer": 8
+      },
+      "colors": {
+        "primary": "#003366",
+        "secondary": "#336699",
+        "accent": "#0066cc",
+        "body": "#2c3e50",
+        "muted": "#7f8c8d",
+        "link": "#2980b9",
+        "code_bg": "#ecf0f1",
+        "callout_bg": "#d6eaf8",
+        "warning_bg": "#fef9e7",
+        "danger_bg": "#fadbd8"
+      }
+    },
+
+    "modern_dark": {
+      "name": "Modern Dark Headers",
+      "description": "Contemporary style with dark headers and vibrant accents",
+      "page_size": "letter",
+      "margins": { "top": 0.85, "bottom": 0.85, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 36,
+        "subtitle": 18,
+        "h1": 24,
+        "h2": 18,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "primary": "#1a1a1a",
+        "secondary": "#2d2d2d",
+        "accent": "#e74c3c",
+        "body": "#333333",
+        "muted": "#555555",
+        "link": "#e74c3c",
+        "code_bg": "#f8f8f8",
+        "callout_bg": "#eaf2f8",
+        "warning_bg": "#fef5e7",
+        "danger_bg": "#f9ebea"
+      }
+    },
+
+    "tech_minimal": {
+      "name": "Tech Minimal",
+      "description": "Clean minimal style for technical documentation",
+      "page_size": "letter",
+      "margins": { "top": 0.75, "bottom": 0.75, "left": 0.85, "right": 0.85 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 28,
+        "subtitle": 12,
+        "h1": 18,
+        "h2": 14,
+        "h3": 12,
+        "h4": 11,
+        "body": 10,
+        "caption": 8,
+        "code": 9,
+        "footer": 8
+      },
+      "colors": {
+        "primary": "#24292e",
+        "secondary": "#586069",
+        "accent": "#0366d6",
+        "body": "#24292e",
+        "muted": "#6a737d",
+        "link": "#0366d6",
+        "code_bg": "#f6f8fa",
+        "callout_bg": "#f1f8ff",
+        "warning_bg": "#fffbdd",
+        "danger_bg": "#ffeef0"
+      }
+    },
+
+    "warm_friendly": {
+      "name": "Warm & Friendly",
+      "description": "Approachable style with warm colors for user guides",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.1, "right": 1.1 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 30,
+        "subtitle": 16,
+        "h1": 22,
+        "h2": 17,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "primary": "#8b4513",
+        "secondary": "#a0522d",
+        "accent": "#d2691e",
+        "body": "#3e2723",
+        "muted": "#795548",
+        "link": "#bf360c",
+        "code_bg": "#fff8e1",
+        "callout_bg": "#e8f5e9",
+        "warning_bg": "#fff3e0",
+        "danger_bg": "#ffebee"
+      }
+    },
+
+    "elegant_serif": {
+      "name": "Elegant Serif",
+      "description": "Classic style with serif fonts for formal documents",
+      "page_size": "letter",
+      "margins": { "top": 1.25, "bottom": 1.25, "left": 1.25, "right": 1.25 },
+      "fonts": {
+        "body": "Times-Roman",
+        "heading": "Times-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 28,
+        "subtitle": 14,
+        "h1": 20,
+        "h2": 16,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "primary": "#2c1810",
+        "secondary": "#4a3728",
+        "accent": "#6b4423",
+        "body": "#1a1a1a",
+        "muted": "#555555",
+        "link": "#4a148c",
+        "code_bg": "#faf8f5",
+        "callout_bg": "#f3e5f5",
+        "warning_bg": "#fff8e1",
+        "danger_bg": "#fce4ec"
+      }
+    },
+
+    "startup_bold": {
+      "name": "Startup Bold",
+      "description": "Bold, energetic style for startup/product docs",
+      "page_size": "letter",
+      "margins": { "top": 0.9, "bottom": 0.9, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 40,
+        "subtitle": 18,
+        "h1": 26,
+        "h2": 20,
+        "h3": 16,
+        "h4": 13,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "primary": "#6c5ce7",
+        "secondary": "#a29bfe",
+        "accent": "#fd79a8",
+        "body": "#2d3436",
+        "muted": "#636e72",
+        "link": "#6c5ce7",
+        "code_bg": "#f5f5ff",
+        "callout_bg": "#e8f8f5",
+        "warning_bg": "#fef9e7",
+        "danger_bg": "#fdedec"
+      }
+    },
+
+    "government": {
+      "name": "Government / Formal",
+      "description": "Formal, conservative style for official documents",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.25, "right": 1.25 },
+      "fonts": {
+        "body": "Times-Roman",
+        "heading": "Times-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 24,
+        "subtitle": 14,
+        "h1": 18,
+        "h2": 14,
+        "h3": 12,
+        "h4": 11,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#333333",
+        "accent": "#003366",
+        "body": "#000000",
+        "muted": "#444444",
+        "link": "#003366",
+        "code_bg": "#f0f0f0",
+        "callout_bg": "#e6f2ff",
+        "warning_bg": "#fff9e6",
+        "danger_bg": "#ffe6e6"
+      }
+    },
+
+    "compact_reference": {
+      "name": "Compact Reference",
+      "description": "Dense layout for reference manuals with lots of content",
+      "page_size": "letter",
+      "margins": { "top": 0.6, "bottom": 0.6, "left": 0.7, "right": 0.7 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 24,
+        "subtitle": 11,
+        "h1": 16,
+        "h2": 13,
+        "h3": 11,
+        "h4": 10,
+        "body": 9,
+        "caption": 7,
+        "code": 8,
+        "footer": 7
+      },
+      "colors": {
+        "primary": "#1a1a1a",
+        "secondary": "#333333",
+        "accent": "#0066cc",
+        "body": "#1a1a1a",
+        "muted": "#666666",
+        "link": "#0066cc",
+        "code_bg": "#f5f5f5",
+        "callout_bg": "#e8f4f8",
+        "warning_bg": "#fff3cd",
+        "danger_bg": "#f8d7da"
+      }
+    },
+
+    "a4_international": {
+      "name": "A4 International",
+      "description": "A4 page size for international documents",
+      "page_size": "a4",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 28,
+        "subtitle": 16,
+        "h1": 20,
+        "h2": 16,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "primary": "#1565c0",
+        "secondary": "#1976d2",
+        "accent": "#2196f3",
+        "body": "#212121",
+        "muted": "#757575",
+        "link": "#1976d2",
+        "code_bg": "#eceff1",
+        "callout_bg": "#e3f2fd",
+        "warning_bg": "#fff8e1",
+        "danger_bg": "#ffebee"
+      }
+    },
+
+    "cream_classic": {
+      "name": "Cream Classic",
+      "description": "Warm cream background with classic serif typography",
+      "page_size": "letter",
+      "margins": { "top": 1.1, "bottom": 1.1, "left": 1.2, "right": 1.2 },
+      "fonts": {
+        "body": "Times-Roman",
+        "heading": "Times-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 30,
+        "subtitle": 14,
+        "h1": 22,
+        "h2": 17,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#fdf6e3",
+        "primary": "#5c4827",
+        "secondary": "#6b5a3e",
+        "accent": "#8b7355",
+        "body": "#3c3c3c",
+        "muted": "#666666",
+        "link": "#8b4513",
+        "code_bg": "#f5efe0",
+        "callout_bg": "#f0ead6",
+        "warning_bg": "#fff3cd",
+        "danger_bg": "#f8d7da"
+      }
+    },
+
+    "ocean_blue": {
+      "name": "Ocean Blue",
+      "description": "Light blue tinted background with navy accents",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 32,
+        "subtitle": 16,
+        "h1": 22,
+        "h2": 17,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#f0f8ff",
+        "header_bar": "#1e3a5f",
+        "primary": "#1e3a5f",
+        "secondary": "#2c5282",
+        "accent": "#3182ce",
+        "body": "#1a365d",
+        "muted": "#4a5568",
+        "link": "#2b6cb0",
+        "code_bg": "#e6f2ff",
+        "callout_bg": "#bee3f8",
+        "warning_bg": "#fefcbf",
+        "danger_bg": "#fed7d7"
+      },
+      "header_bar_height": 0.35
+    },
+
+    "forest_green": {
+      "name": "Forest Green",
+      "description": "Nature-inspired with green sidebar accent",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.3, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 28,
+        "subtitle": 15,
+        "h1": 21,
+        "h2": 16,
+        "h3": 13,
+        "h4": 11,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#fafff8",
+        "side_bar": "#2d5a27",
+        "primary": "#2d5a27",
+        "secondary": "#3d7a37",
+        "accent": "#48a840",
+        "body": "#1a3018",
+        "muted": "#4a5d48",
+        "link": "#2e7d32",
+        "code_bg": "#e8f5e9",
+        "callout_bg": "#c8e6c9",
+        "warning_bg": "#fff8e1",
+        "danger_bg": "#ffebee"
+      },
+      "side_bar_width": 0.18
+    },
+
+    "midnight": {
+      "name": "Midnight Dark",
+      "description": "Dark theme with light text for screen reading",
+      "page_size": "letter",
+      "margins": { "top": 0.9, "bottom": 0.9, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 34,
+        "subtitle": 16,
+        "h1": 24,
+        "h2": 18,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#1a1a2e",
+        "primary": "#e0e0e0",
+        "secondary": "#b0b0b0",
+        "accent": "#64b5f6",
+        "body": "#e8e8e8",
+        "muted": "#a0a0a0",
+        "link": "#82b1ff",
+        "code_bg": "#2d2d44",
+        "callout_bg": "#263238",
+        "warning_bg": "#3e2723",
+        "danger_bg": "#4a1a1a"
+      }
+    },
+
+    "lavender_soft": {
+      "name": "Lavender Soft",
+      "description": "Gentle lavender tones with purple accents",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 30,
+        "subtitle": 15,
+        "h1": 22,
+        "h2": 17,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#f8f5ff",
+        "header_bar": "#6b46c1",
+        "primary": "#553c9a",
+        "secondary": "#6b46c1",
+        "accent": "#805ad5",
+        "body": "#322659",
+        "muted": "#6b7280",
+        "link": "#7c3aed",
+        "code_bg": "#ede9fe",
+        "callout_bg": "#e9d8fd",
+        "warning_bg": "#fef3c7",
+        "danger_bg": "#fee2e2"
+      },
+      "header_bar_height": 0.3
+    },
+
+    "coral_energy": {
+      "name": "Coral Energy",
+      "description": "Vibrant coral and orange for energetic content",
+      "page_size": "letter",
+      "margins": { "top": 0.9, "bottom": 0.9, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 36,
+        "subtitle": 17,
+        "h1": 26,
+        "h2": 19,
+        "h3": 15,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#fffaf7",
+        "side_bar": "#ff6b6b",
+        "primary": "#e63946",
+        "secondary": "#ff6b6b",
+        "accent": "#ff8c42",
+        "body": "#2d3748",
+        "muted": "#718096",
+        "link": "#e53e3e",
+        "code_bg": "#fff5f5",
+        "callout_bg": "#fed7d7",
+        "warning_bg": "#feebc8",
+        "danger_bg": "#feb2b2"
+      },
+      "side_bar_width": 0.12
+    },
+
+    "mint_fresh": {
+      "name": "Mint Fresh",
+      "description": "Clean mint green with modern feel",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 30,
+        "subtitle": 15,
+        "h1": 22,
+        "h2": 17,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#f0fff4",
+        "footer_bar": "#38a169",
+        "primary": "#276749",
+        "secondary": "#38a169",
+        "accent": "#48bb78",
+        "body": "#1a202c",
+        "muted": "#718096",
+        "link": "#2f855a",
+        "code_bg": "#c6f6d5",
+        "callout_bg": "#9ae6b4",
+        "warning_bg": "#fefcbf",
+        "danger_bg": "#fed7d7"
+      },
+      "footer_bar_height": 0.25
+    },
+
+    "newspaper": {
+      "name": "Newspaper",
+      "description": "Classic newspaper column style with serif fonts",
+      "page_size": "letter",
+      "margins": { "top": 0.8, "bottom": 0.8, "left": 0.9, "right": 0.9 },
+      "fonts": {
+        "body": "Times-Roman",
+        "heading": "Times-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 36,
+        "subtitle": 12,
+        "h1": 24,
+        "h2": 16,
+        "h3": 13,
+        "h4": 11,
+        "body": 10,
+        "caption": 8,
+        "code": 9,
+        "footer": 8
+      },
+      "colors": {
+        "page_bg": "#fffef5",
+        "header_bar": "#1a1a1a",
+        "footer_bar": "#1a1a1a",
+        "primary": "#1a1a1a",
+        "secondary": "#333333",
+        "accent": "#666666",
+        "body": "#1a1a1a",
+        "muted": "#555555",
+        "link": "#1a1a1a",
+        "code_bg": "#f0f0f0",
+        "callout_bg": "#f5f5f5",
+        "warning_bg": "#fff9e6",
+        "danger_bg": "#fff0f0"
+      },
+      "header_bar_height": 0.15,
+      "footer_bar_height": 0.1
+    },
+
+    "sunset_gradient": {
+      "name": "Sunset Warm",
+      "description": "Warm gradient-inspired colors from peach to coral",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 32,
+        "subtitle": 16,
+        "h1": 24,
+        "h2": 18,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#fff9f5",
+        "header_bar": "#f56565",
+        "primary": "#c53030",
+        "secondary": "#e53e3e",
+        "accent": "#ed8936",
+        "body": "#2d3748",
+        "muted": "#718096",
+        "link": "#dd6b20",
+        "code_bg": "#fffaf0",
+        "callout_bg": "#feebc8",
+        "warning_bg": "#fefcbf",
+        "danger_bg": "#fed7d7"
+      },
+      "header_bar_height": 0.4
+    },
+
+    "arctic": {
+      "name": "Arctic Ice",
+      "description": "Cool icy blues with crisp white",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 30,
+        "subtitle": 15,
+        "h1": 22,
+        "h2": 17,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#f7fafc",
+        "side_bar": "#4299e1",
+        "primary": "#2b6cb0",
+        "secondary": "#3182ce",
+        "accent": "#63b3ed",
+        "body": "#1a202c",
+        "muted": "#718096",
+        "link": "#3182ce",
+        "code_bg": "#ebf8ff",
+        "callout_bg": "#bee3f8",
+        "warning_bg": "#fefcbf",
+        "danger_bg": "#fed7d7"
+      },
+      "side_bar_width": 0.1
+    },
+
+    "executive": {
+      "name": "Executive Gold",
+      "description": "Premium look with gold accents on dark headers",
+      "page_size": "letter",
+      "margins": { "top": 1.1, "bottom": 1.1, "left": 1.2, "right": 1.0 },
+      "fonts": {
+        "body": "Times-Roman",
+        "heading": "Times-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 32,
+        "subtitle": 14,
+        "h1": 22,
+        "h2": 17,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#fffef8",
+        "header_bar": "#1a1a1a",
+        "side_bar": "#d4af37",
+        "primary": "#1a1a1a",
+        "secondary": "#333333",
+        "accent": "#d4af37",
+        "body": "#1a1a1a",
+        "muted": "#666666",
+        "link": "#996515",
+        "code_bg": "#f5f5f0",
+        "callout_bg": "#fef9e7",
+        "warning_bg": "#fff8dc",
+        "danger_bg": "#ffe4e1"
+      },
+      "header_bar_height": 0.5,
+      "side_bar_width": 0.08
+    },
+
+    "neon_cyber": {
+      "name": "Neon Cyber",
+      "description": "Futuristic dark theme with neon accents",
+      "page_size": "letter",
+      "margins": { "top": 0.9, "bottom": 0.9, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 38,
+        "subtitle": 16,
+        "h1": 26,
+        "h2": 19,
+        "h3": 15,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#0d0d1a",
+        "side_bar": "#00ff88",
+        "primary": "#00ff88",
+        "secondary": "#00ccff",
+        "accent": "#ff00ff",
+        "body": "#e0e0e0",
+        "muted": "#888888",
+        "link": "#00ccff",
+        "code_bg": "#1a1a2e",
+        "callout_bg": "#1a2a2a",
+        "warning_bg": "#2a2a1a",
+        "danger_bg": "#2a1a1a"
+      },
+      "side_bar_width": 0.06
+    },
+
+    "rose_elegant": {
+      "name": "Rose Elegant",
+      "description": "Soft rose tones for feminine, elegant documents",
+      "page_size": "letter",
+      "margins": { "top": 1.1, "bottom": 1.1, "left": 1.1, "right": 1.1 },
+      "fonts": {
+        "body": "Times-Roman",
+        "heading": "Times-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 30,
+        "subtitle": 14,
+        "h1": 22,
+        "h2": 17,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#fff5f7",
+        "header_bar": "#b83280",
+        "primary": "#97266d",
+        "secondary": "#b83280",
+        "accent": "#d53f8c",
+        "body": "#1a202c",
+        "muted": "#718096",
+        "link": "#b83280",
+        "code_bg": "#fed7e2",
+        "callout_bg": "#fbb6ce",
+        "warning_bg": "#fefcbf",
+        "danger_bg": "#feb2b2"
+      },
+      "header_bar_height": 0.3
+    },
+
+    "blueprint": {
+      "name": "Blueprint Technical",
+      "description": "Engineering blueprint style with grid feel",
+      "page_size": "letter",
+      "margins": { "top": 0.8, "bottom": 0.8, "left": 0.8, "right": 0.8 },
+      "fonts": {
+        "body": "Courier",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 28,
+        "subtitle": 12,
+        "h1": 20,
+        "h2": 15,
+        "h3": 12,
+        "h4": 11,
+        "body": 10,
+        "caption": 8,
+        "code": 10,
+        "footer": 8
+      },
+      "colors": {
+        "page_bg": "#1e3a5f",
+        "primary": "#ffffff",
+        "secondary": "#a0c4e8",
+        "accent": "#63b3ed",
+        "body": "#e0e8f0",
+        "muted": "#a0b4c8",
+        "link": "#90cdf4",
+        "code_bg": "#2a4a6f",
+        "callout_bg": "#2a5080",
+        "warning_bg": "#4a4a1f",
+        "danger_bg": "#5f2a2a"
+      }
+    },
+
+    "parchment": {
+      "name": "Parchment Antique",
+      "description": "Old parchment look for historical or fantasy content",
+      "page_size": "letter",
+      "margins": { "top": 1.2, "bottom": 1.2, "left": 1.3, "right": 1.3 },
+      "fonts": {
+        "body": "Times-Roman",
+        "heading": "Times-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 28,
+        "subtitle": 14,
+        "h1": 20,
+        "h2": 16,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#f4e4c1",
+        "primary": "#5c4033",
+        "secondary": "#6b4423",
+        "accent": "#8b4513",
+        "body": "#3c2415",
+        "muted": "#6b5344",
+        "link": "#8b4513",
+        "code_bg": "#e8d4a8",
+        "callout_bg": "#dcc89c",
+        "warning_bg": "#e8d090",
+        "danger_bg": "#d8a090"
+      }
+    },
+
+    "medical": {
+      "name": "Medical Professional",
+      "description": "Clean medical/healthcare style with teal accents",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 28,
+        "subtitle": 14,
+        "h1": 20,
+        "h2": 16,
+        "h3": 13,
+        "h4": 11,
+        "body": 10,
+        "caption": 8,
+        "code": 9,
+        "footer": 8
+      },
+      "colors": {
+        "page_bg": "#f8ffff",
+        "header_bar": "#0d9488",
+        "primary": "#0d9488",
+        "secondary": "#14b8a6",
+        "accent": "#2dd4bf",
+        "body": "#1e293b",
+        "muted": "#64748b",
+        "link": "#0d9488",
+        "code_bg": "#f0fdfa",
+        "callout_bg": "#ccfbf1",
+        "warning_bg": "#fef9c3",
+        "danger_bg": "#fee2e2"
+      },
+      "header_bar_height": 0.35
+    },
+
+    "candy_pop": {
+      "name": "Candy Pop",
+      "description": "Fun, playful colors for casual content",
+      "page_size": "letter",
+      "margins": { "top": 0.9, "bottom": 0.9, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 40,
+        "subtitle": 18,
+        "h1": 28,
+        "h2": 20,
+        "h3": 16,
+        "h4": 13,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#fff0f5",
+        "side_bar": "#ff69b4",
+        "footer_bar": "#00bfff",
+        "primary": "#ff1493",
+        "secondary": "#ff69b4",
+        "accent": "#00bfff",
+        "body": "#333333",
+        "muted": "#666666",
+        "link": "#ff1493",
+        "code_bg": "#ffe4ec",
+        "callout_bg": "#e0ffff",
+        "warning_bg": "#fffacd",
+        "danger_bg": "#ffb6c1"
+      },
+      "side_bar_width": 0.15,
+      "footer_bar_height": 0.2
+    },
+
+    "charcoal_minimal": {
+      "name": "Charcoal Minimal",
+      "description": "Subtle dark gray with minimal color accents",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 28,
+        "subtitle": 14,
+        "h1": 20,
+        "h2": 16,
+        "h3": 13,
+        "h4": 11,
+        "body": 10,
+        "caption": 8,
+        "code": 9,
+        "footer": 8
+      },
+      "colors": {
+        "page_bg": "#f5f5f5",
+        "header_bar": "#374151",
+        "primary": "#374151",
+        "secondary": "#4b5563",
+        "accent": "#6b7280",
+        "body": "#1f2937",
+        "muted": "#6b7280",
+        "link": "#4b5563",
+        "code_bg": "#e5e7eb",
+        "callout_bg": "#d1d5db",
+        "warning_bg": "#fef3c7",
+        "danger_bg": "#fee2e2"
+      },
+      "header_bar_height": 0.3
+    },
+
+    "serif_classic": {
+      "name": "Serif Classic",
+      "description": "All Times Roman - traditional book style",
+      "page_size": "letter",
+      "margins": { "top": 1.2, "bottom": 1.2, "left": 1.3, "right": 1.3 },
+      "fonts": {
+        "body": "Times-Roman",
+        "heading": "Times-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 26,
+        "subtitle": 14,
+        "h1": 20,
+        "h2": 16,
+        "h3": 13,
+        "h4": 12,
+        "body": 12,
+        "caption": 10,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "primary": "#1a1a1a",
+        "secondary": "#333333",
+        "accent": "#444444",
+        "body": "#1a1a1a",
+        "muted": "#555555",
+        "link": "#000080",
+        "code_bg": "#f5f5f5",
+        "callout_bg": "#f0f0f0",
+        "warning_bg": "#fff3cd",
+        "danger_bg": "#f8d7da"
+      }
+    },
+
+    "serif_italic_accent": {
+      "name": "Serif with Italic Accents",
+      "description": "Times with italic subheadings for elegant look",
+      "page_size": "letter",
+      "margins": { "top": 1.1, "bottom": 1.1, "left": 1.2, "right": 1.2 },
+      "fonts": {
+        "body": "Times-Roman",
+        "heading": "Times-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 28,
+        "subtitle": 16,
+        "h1": 22,
+        "h2": 17,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#fffef8",
+        "primary": "#2c1810",
+        "secondary": "#4a3728",
+        "accent": "#7a5a48",
+        "body": "#2c1810",
+        "muted": "#6b5344",
+        "link": "#8b4513",
+        "code_bg": "#f8f4e8",
+        "callout_bg": "#f0e8d8",
+        "warning_bg": "#fff3cd",
+        "danger_bg": "#f8d7da"
+      }
+    },
+
+    "sans_modern": {
+      "name": "Sans Modern",
+      "description": "Clean Helvetica with modern spacing",
+      "page_size": "letter",
+      "margins": { "top": 0.9, "bottom": 0.9, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 36,
+        "subtitle": 16,
+        "h1": 26,
+        "h2": 20,
+        "h3": 16,
+        "h4": 13,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "primary": "#111111",
+        "secondary": "#333333",
+        "accent": "#0066ff",
+        "body": "#222222",
+        "muted": "#666666",
+        "link": "#0066ff",
+        "code_bg": "#f5f5f5",
+        "callout_bg": "#e8f4f8",
+        "warning_bg": "#fff3cd",
+        "danger_bg": "#f8d7da"
+      }
+    },
+
+    "mono_tech": {
+      "name": "Monospace Technical",
+      "description": "All Courier - typewriter/terminal style",
+      "page_size": "letter",
+      "margins": { "top": 0.8, "bottom": 0.8, "left": 0.9, "right": 0.9 },
+      "fonts": {
+        "body": "Courier",
+        "heading": "Courier-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 24,
+        "subtitle": 12,
+        "h1": 18,
+        "h2": 14,
+        "h3": 12,
+        "h4": 11,
+        "body": 10,
+        "caption": 8,
+        "code": 10,
+        "footer": 8
+      },
+      "colors": {
+        "page_bg": "#fafafa",
+        "primary": "#1a1a1a",
+        "secondary": "#333333",
+        "accent": "#555555",
+        "body": "#1a1a1a",
+        "muted": "#666666",
+        "link": "#0066cc",
+        "code_bg": "#f0f0f0",
+        "callout_bg": "#e8e8e8",
+        "warning_bg": "#fff3cd",
+        "danger_bg": "#f8d7da"
+      }
+    },
+
+    "mixed_elegant": {
+      "name": "Mixed Elegant",
+      "description": "Times headings with Helvetica body - classic mix",
+      "page_size": "letter",
+      "margins": { "top": 1.1, "bottom": 1.1, "left": 1.1, "right": 1.1 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Times-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 30,
+        "subtitle": 14,
+        "h1": 24,
+        "h2": 18,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#fffff8",
+        "primary": "#1a1a2e",
+        "secondary": "#2d2d44",
+        "accent": "#4a4a6a",
+        "body": "#333333",
+        "muted": "#666666",
+        "link": "#4a148c",
+        "code_bg": "#f5f5f5",
+        "callout_bg": "#f0f0ff",
+        "warning_bg": "#fff3cd",
+        "danger_bg": "#f8d7da"
+      }
+    },
+
+    "bold_contrast": {
+      "name": "Bold Contrast",
+      "description": "Heavy bold headings with light body text",
+      "page_size": "letter",
+      "margins": { "top": 0.9, "bottom": 0.9, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier-Bold"
+      },
+      "font_sizes": {
+        "title": 42,
+        "subtitle": 18,
+        "h1": 30,
+        "h2": 22,
+        "h3": 16,
+        "h4": 13,
+        "body": 10,
+        "caption": 8,
+        "code": 9,
+        "footer": 8
+      },
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#1a1a1a",
+        "accent": "#ff0000",
+        "body": "#333333",
+        "muted": "#666666",
+        "link": "#cc0000",
+        "code_bg": "#f5f5f5",
+        "callout_bg": "#ffe8e8",
+        "warning_bg": "#fff3cd",
+        "danger_bg": "#f8d7da"
+      }
+    },
+
+    "light_airy": {
+      "name": "Light & Airy",
+      "description": "Light fonts with generous whitespace",
+      "page_size": "letter",
+      "margins": { "top": 1.3, "bottom": 1.3, "left": 1.4, "right": 1.4 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 32,
+        "subtitle": 14,
+        "h1": 22,
+        "h2": 17,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#ffffff",
+        "primary": "#666666",
+        "secondary": "#888888",
+        "accent": "#aaaaaa",
+        "body": "#444444",
+        "muted": "#999999",
+        "link": "#666666",
+        "code_bg": "#fafafa",
+        "callout_bg": "#f8f8f8",
+        "warning_bg": "#fffbf0",
+        "danger_bg": "#fff5f5"
+      }
+    },
+
+    "academic": {
+      "name": "Academic Paper",
+      "description": "Formal academic style with serif fonts",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.25, "right": 1.25 },
+      "fonts": {
+        "body": "Times-Roman",
+        "heading": "Times-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 24,
+        "subtitle": 12,
+        "h1": 16,
+        "h2": 14,
+        "h3": 12,
+        "h4": 11,
+        "body": 12,
+        "caption": 10,
+        "code": 10,
+        "footer": 10
+      },
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#000000",
+        "accent": "#000000",
+        "body": "#000000",
+        "muted": "#333333",
+        "link": "#000080",
+        "code_bg": "#f5f5f5",
+        "callout_bg": "#f0f0f0",
+        "warning_bg": "#fff3cd",
+        "danger_bg": "#f8d7da"
+      }
+    },
+
+    "oblique_modern": {
+      "name": "Oblique Modern",
+      "description": "Helvetica with oblique/italic accents",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier-Oblique"
+      },
+      "font_sizes": {
+        "title": 34,
+        "subtitle": 16,
+        "h1": 24,
+        "h2": 18,
+        "h3": 14,
+        "h4": 12,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#f8f9fa",
+        "side_bar": "#495057",
+        "primary": "#212529",
+        "secondary": "#343a40",
+        "accent": "#6c757d",
+        "body": "#212529",
+        "muted": "#6c757d",
+        "link": "#0d6efd",
+        "code_bg": "#e9ecef",
+        "callout_bg": "#dee2e6",
+        "warning_bg": "#fff3cd",
+        "danger_bg": "#f8d7da"
+      },
+      "side_bar_width": 0.1
+    },
+
+    "heavy_serif": {
+      "name": "Heavy Serif",
+      "description": "Bold Times headings for maximum impact",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.1, "right": 1.1 },
+      "fonts": {
+        "body": "Times-Roman",
+        "heading": "Times-Bold",
+        "code": "Courier-Bold"
+      },
+      "font_sizes": {
+        "title": 38,
+        "subtitle": 16,
+        "h1": 28,
+        "h2": 22,
+        "h3": 16,
+        "h4": 13,
+        "body": 11,
+        "caption": 9,
+        "code": 10,
+        "footer": 9
+      },
+      "colors": {
+        "page_bg": "#fdfcf8",
+        "header_bar": "#2c1810",
+        "primary": "#2c1810",
+        "secondary": "#4a3020",
+        "accent": "#8b4513",
+        "body": "#1a1a1a",
+        "muted": "#555555",
+        "link": "#8b4513",
+        "code_bg": "#f0ebe0",
+        "callout_bg": "#e8e0d0",
+        "warning_bg": "#fff3cd",
+        "danger_bg": "#f8d7da"
+      },
+      "header_bar_height": 0.4
+    },
+
+    "condensed": {
+      "name": "Condensed Tight",
+      "description": "Compact layout with tight spacing for dense content",
+      "page_size": "letter",
+      "margins": { "top": 0.5, "bottom": 0.5, "left": 0.6, "right": 0.6 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 22,
+        "subtitle": 10,
+        "h1": 15,
+        "h2": 12,
+        "h3": 10,
+        "h4": 9,
+        "body": 8,
+        "caption": 7,
+        "code": 7,
+        "footer": 6
+      },
+      "colors": {
+        "primary": "#1a1a1a",
+        "secondary": "#333333",
+        "accent": "#0066cc",
+        "body": "#1a1a1a",
+        "muted": "#666666",
+        "link": "#0066cc",
+        "code_bg": "#f5f5f5",
+        "callout_bg": "#e8f4f8",
+        "warning_bg": "#fff3cd",
+        "danger_bg": "#f8d7da"
+      }
+    },
+
+    "large_print": {
+      "name": "Large Print",
+      "description": "Accessible large fonts for readability",
+      "page_size": "letter",
+      "margins": { "top": 1.0, "bottom": 1.0, "left": 1.0, "right": 1.0 },
+      "fonts": {
+        "body": "Helvetica",
+        "heading": "Helvetica-Bold",
+        "code": "Courier"
+      },
+      "font_sizes": {
+        "title": 36,
+        "subtitle": 20,
+        "h1": 28,
+        "h2": 22,
+        "h3": 18,
+        "h4": 16,
+        "body": 14,
+        "caption": 12,
+        "code": 13,
+        "footer": 11
+      },
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#222222",
+        "accent": "#0044aa",
+        "body": "#000000",
+        "muted": "#444444",
+        "link": "#0044aa",
+        "code_bg": "#f0f0f0",
+        "callout_bg": "#e0e8f0",
+        "warning_bg": "#fff3cd",
+        "danger_bg": "#f8d7da"
+      }
+    }
+  }
+}
